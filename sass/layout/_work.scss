@@ -1,0 +1,38 @@
+/* Work */
+
+.section__our-work {
+  @media screen and (max-width: $desktop) {
+    display: none;
+  }
+}
+
+.work-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+}
+
+.work-list__item {
+  margin-left: 30px;
+}
+
+.work-list__thumb {
+  position: relative;
+}
+
+.work-list__label {
+  position: absolute;
+  bottom: 0;
+  height: 70px;
+  width: 100%;
+  background-color: rgba(47, 48, 58, 0.8);
+  padding-top: 27px;
+  padding-bottom: 27px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}

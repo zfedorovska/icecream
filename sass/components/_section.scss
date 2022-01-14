@@ -1,0 +1,33 @@
+/* Section */
+
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @media screen and (min-width: $desktop) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
+.section.no-top-padding {
+  padding-top: 0;
+}
+
+.section-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.17;
+  text-align: center;
+  @media screen and (min-width: $desktop) {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+}
+
+.section-title.centered {
+  text-align: center;
+}
